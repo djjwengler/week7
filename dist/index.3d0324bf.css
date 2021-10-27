@@ -114,4 +114,35 @@
   text-align: center;
 }
 
-/*# sourceMappingURL=main.css.map */
+.col-1 {
+  flex: 0 0 12.5%;
+}
+
+.col-2 {
+  flex: 0 0 25%;
+}
+
+.col-3 {
+  flex: 0 0 37.5%;
+}
+
+.col-4 {
+  flex: 0 0 50%;
+}
+
+.col-5 {
+  flex: 0 0 62.5%;
+}
+
+.col-6 {
+  flex: 0 0 75%;
+}
+
+.col-7 {
+  flex: 0 0 87.5%;
+}
+
+.col-8 {
+  flex: 0 0 100%;
+}
+/*# sourceMappingURL=index.3d0324bf.css.map */

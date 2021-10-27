@@ -1,12 +1,6 @@
+ @import "variables";
+ @import "mixins";
  @import "cardgrid";
-
-//variables to setup basic size and shape of the card and pips
-$card-width: 40vw;
-$card-height: $card-width*1.4;
-$font-size-number: $card-width * 0.1;
-$icon-size: $card-width / 5;
-$loop-start: 1;
-$loop-end: $num-columns+1;
 
 *,
 *:before,
@@ -66,12 +60,12 @@ $loop-end: $num-columns+1;
     text-align: center;
 }
 
-// //make column classes 
-// @for $index from $loop-start to $loop-end {
-//     .col-#{$index} {
-//         @include col($index);
-//     }
-// }
+//make column classes 
+@for $index from $loop-start to $loop-end {
+    .col-#{$index} {
+        @include col($index);
+    }
+}
 
 
 

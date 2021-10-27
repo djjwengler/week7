@@ -1,0 +1,11 @@
+@import "variables";
+
+
+//mixins
+@mixin col($span-num) {
+    flex: 0 0 calc($one-column * $span-num);
+}
+
+@mixin offset($offset-num) {
+    margin-left: calc($one-column * $offset-num);
+}
